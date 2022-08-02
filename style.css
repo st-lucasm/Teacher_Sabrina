@@ -74,19 +74,26 @@ body {
 
 
 main {
-    background-color:rgba(0, 0, 139, 20%);
-    width:80vw;
+    width:60vw;
     height:100vh;
     margin: auto;
     display:flex;
-    align-items: center;
-    justify-items: center;
+    justify-content: center;
 }
 
-#conteudo::before{
-    content: "";
+#conteudo {
+    background-color:rgba(0, 100, 139, 20%);
+    border-radius: 5%;
+    padding:2rem;
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
 }
 
+#conteudo h1{
+    font-size:3rem;
+}
 @media screen and (max-width:1000px) {
     html{
         font-size: 14px;
